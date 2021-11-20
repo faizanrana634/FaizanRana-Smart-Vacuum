@@ -19,7 +19,6 @@ public int charges() {
 }
 	public int charges;
 	public void docks() {}
-	Public boolean Detectinglocation;
 	public boolean sendingsignals;
 	
 }

@@ -9,7 +9,7 @@ package com.IRobotRoomba.src;
  */
 public class IRobotRoomba {
 
-	Private double shape;
+	private double shape;
 	Private double Height;
 	Private String wheels;
 	Private int speed;
