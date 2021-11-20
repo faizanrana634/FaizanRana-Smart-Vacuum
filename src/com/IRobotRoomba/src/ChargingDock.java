@@ -9,8 +9,8 @@ package com.IRobotRoomba.src;
  */
 public class ChargingDock{
 
-		Private Boolean charging;
-		Private boolean infraredbeacons;
+		private Boolean charging;
+		private boolean infraredbeacons;
 		private boolean powercord;
 		
 		

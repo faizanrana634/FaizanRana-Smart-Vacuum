@@ -7,7 +7,7 @@ package com.IRobotRoomba.src;
  * @author faiza
  *
  */
-public class Camera extends parts {
+public class Camera extends Parts {
 
 	
 	private double pixels;

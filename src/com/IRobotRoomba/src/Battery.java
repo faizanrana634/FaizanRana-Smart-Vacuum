@@ -7,12 +7,8 @@ package com.IRobotRoomba.src;
  * @author faiza
  *
  */
-public class Battery extends parts {
+public class Battery extends Parts {
 
-	private double batterysize;
-	private double chargingduration;
-	private double batterylifecycle;
-
-public void recharging() {}
+	public void recharging() {}
 public void batteryreplacement () {}
 }

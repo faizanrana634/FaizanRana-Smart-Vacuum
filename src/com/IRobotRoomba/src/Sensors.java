@@ -7,7 +7,7 @@ package com.IRobotRoomba.src;
  * @author faiza
  *
  */
-public class Sensors extends parts {
+public class Sensors extends Parts {
 
 	private boolean Floormapping;
 	private boolean bumpers;

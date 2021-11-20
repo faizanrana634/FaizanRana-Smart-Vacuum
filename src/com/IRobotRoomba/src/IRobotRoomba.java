@@ -2,25 +2,34 @@
  * 
  */
 package com.IRobotRoomba.src;
-
+public class Cleaning implement SelfCapable {
+	private Display maindisplay;
+	private Cleaning cleaningSurface;
+	
+public Cleaning
+	maindisplay1 = new Display();
+	Cleaning = new Cleaning();
+	
+	}
 /**
- * @author faiza
+ * @author faizan
  *
  */
 public class IRobotRoomba {
 
 	private double shape;
-	Private double Height;
-	Private String wheels;
-	Private int speed;
-	Private double display;
-	Private String hardware;
+	private double Height;
+	private String wheels;
+	private int speed;
+	private double display;
+	private String hardware;
 	
 	
-	Public void moves() {}
-	Public String cleans() {}
-	Public String Noise;
-	Public boolean wificommunication;
+	public void moves() {}
+	public String cleans() {
+		return Noise;}
+	public String Noise;
+	public boolean wificommunication;
 	public boolean detectionobjects;
 	
 	
@@ -30,7 +39,21 @@ public class IRobotRoomba {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		mycleaning.runSelfCheck();
 
 	}
+	public static void main1(String [] args) {
+		Cleaning mycleaning = new Cleaning();
+	}
 
-}
+	public String getComponentName() {
+		return "My cleaning Bot"
+	}
+	
+	public boolean selfcheck() {
+		return false;
+	}
+	
+	public boolean runSelfCheck() {
+		return false
+	}

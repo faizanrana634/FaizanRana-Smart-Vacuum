@@ -3,17 +3,23 @@
  */
 package com.IRobotRoomba.src;
 
+import javax.swing.text.html.HTMLEditorKit.Parser;
+
 /**
- * @author faiza
+ * @author faizan
  *
  */
-public class Vacuum extends parts{
+public abstract class Vacuum extends Parser{
 
-	private double suctionPower; 
-	private boolean filter;
-	private double electricmotor;
+	private final double suctionPower = 0; 
+	@SuppressWarnings("unused")
 	private void dustbin() {}
+	@SuppressWarnings("unused")
 	private void brushes() {}
+
+	public double getSuctionPower() {
+		return suctionPower;
+	}
 
 	public boolean suctions;
 }

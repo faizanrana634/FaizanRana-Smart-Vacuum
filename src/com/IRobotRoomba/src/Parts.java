@@ -9,6 +9,14 @@ package com.IRobotRoomba.src;
  */
 public class Parts {
 
-	private string hardware;
+	private String hardware;
+
+	public String getHardware() {
+		return hardware;
+	}
+
+	public void setHardware(String hardware) {
+		this.hardware = hardware;
+	}
 
 }
