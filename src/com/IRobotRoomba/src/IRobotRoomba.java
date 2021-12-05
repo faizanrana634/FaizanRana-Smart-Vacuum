@@ -17,6 +17,7 @@ public Cleaning
  */
 public class IRobotRoomba {
 
+	private static final String SelfCheckUtils = null;
 	private double shape;
 	private double Height;
 	private String wheels;
@@ -38,6 +39,7 @@ public class IRobotRoomba {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		IRobotRoomba mycleaning;
 		// TODO Auto-generated method stub
 		mycleaning.runSelfCheck();
 
@@ -47,7 +49,7 @@ public class IRobotRoomba {
 	}
 
 	public String getComponentName() {
-		return "My cleaning Bot"
+		return "My cleaning Bot";
 	}
 	
 	public boolean selfcheck() {
@@ -55,5 +57,23 @@ public class IRobotRoomba {
 	}
 	
 	public boolean runSelfCheck() {
-		return false
+		return false;
 	}
+	public boolean selfcheck1() {
+    // TODD Auto-generated method stub
+		retun SelfCheckUtils.randomCheck(0,1);	
+	}
+	@Override 
+	public String getComponentName1.1() {
+		String name;
+		//TODD Auto-generated method stub
+		return class;
+	
+	}
+	
+	public boolean runSelfCheck1() {
+		boolean name;
+		//TODD Auto-generated method stub
+		return name;
+	}
+}
